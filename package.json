@@ -1,0 +1,19 @@
+{
+  "name": "sample-mocha-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "allure-report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^6.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
